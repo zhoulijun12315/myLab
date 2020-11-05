@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		122C1028697FAA3A3CECF0BA /* Pods-myLab_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLab_Tests.release.xcconfig"; path = "Target Support Files/Pods-myLab_Tests/Pods-myLab_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3DB597CFD2C5C5CAFD1F1390 /* Pods-myLab_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLab_Tests.debug.xcconfig"; path = "Target Support Files/Pods-myLab_Tests/Pods-myLab_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		49F02CC3573BD874DE945A44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		49F02CC3573BD874DE945A44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		58C311EAD5B053D6CA32C470 /* Pods_myLab_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myLab_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2E091B4FC6FDC462260730 /* Pods-myLab_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLab_Example.release.xcconfig"; path = "Target Support Files/Pods-myLab_Example/Pods-myLab_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* myLab_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myLab_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8572C3F051974C930485D970 /* Pods-myLab_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLab_Example.debug.xcconfig"; path = "Target Support Files/Pods-myLab_Example/Pods-myLab_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1BB3AD0D51AE7BBE4C3E2A8 /* myLab.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = myLab.podspec; path = ../myLab.podspec; sourceTree = "<group>"; };
-		D638AD89CA36E6433A885B0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B1BB3AD0D51AE7BBE4C3E2A8 /* myLab.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = myLab.podspec; path = ../myLab.podspec; sourceTree = "<group>"; };
+		D638AD89CA36E6433A885B0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DDEE4B6E33E0ED2EB290D430 /* Pods_myLab_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myLab_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				3DB597CFD2C5C5CAFD1F1390 /* Pods-myLab_Tests.debug.xcconfig */,
 				122C1028697FAA3A3CECF0BA /* Pods-myLab_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -509,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -524,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
