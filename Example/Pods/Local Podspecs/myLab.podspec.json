@@ -1,0 +1,22 @@
+{
+  "name": "myLab",
+  "version": "0.1.0",
+  "summary": "A short description of myLab.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/260108593@qq.com/myLab",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "260108593@qq.com": "lijun.zhou@megatronix.co"
+  },
+  "source": {
+    "git": "https://github.com/260108593@qq.com/myLab.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "myLab/Classes/**/*"
+}

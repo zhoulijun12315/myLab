@@ -1,0 +1,6 @@
+framework module myLab {
+  umbrella header "myLab-umbrella.h"
+
+  export *
+  module * { export * }
+}
