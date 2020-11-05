@@ -1,7 +1,8 @@
 {
   "name": "myLab",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of myLab.",
+  "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/260108593@qq.com/myLab",
   "license": {
@@ -12,11 +13,12 @@
     "260108593@qq.com": "lijun.zhou@megatronix.co"
   },
   "source": {
-    "git": "https://github.com/260108593@qq.com/myLab.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zhoulijun12315/myLab.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "myLab/Classes/**/*"
+  "source_files": "myLab/Classes/**/*",
+  "swift_version": "5.0"
 }
