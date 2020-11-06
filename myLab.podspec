@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zhoulijun12315/myLab.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'myLab/Classes/**/*'
   
